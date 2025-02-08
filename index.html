@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 id="title">Survey Form</h1>
+    <link rel="stylesheet" href="styles.css">
+    <p id="description">This is students' survey form</p>
+    </head>
+    <body>
+    <form id="survey-form" action="feruzhassen734@gmail.com">
+      
+      <label for="name" class="inline"id="name-label">Name<input id="name" type="text" placeholder="name"  required/> </label>
+      <label for="email"id="email-label" class="inline">Email<input id="email" type="email" placeholder="email" required/></label>
+        <label for="number" class="inline"id="number-label">Age<input id="number" type="number" min="10" max="99" placeholder="age" required/></label>
+        <select id="dropdown" class="inline"  >
+          <option value="">Select current academic status</option>
+          <option value="1" >Excelent</option>
+          <option value="2">Very Good</option>
+          <option value="3">Good</option>
+          <option value="4">Not Bad</option>
+          <option value="5">Bad</option>
+        </select>
+        <fieldset>
+          <legend>Do You Think grade will Define A Student?
+   <label for="yes"><input type="radio" value="6" name="Grade" id="yes" class="inline" checked/>Yes</label>
+         <label for="maybe"><input type="radio" value="7" name="Grade" id="maybe" class="inline" />Maybe</label>
+         <label for="no"><input type="radio" value="8" name="Grade" id="no" class="inline" />No</label></legend></fieldset>
+      <fieldset>
+        <legend>Which of the following Programminf language you know?
+<label><input type="checkbox" value="1"class="inline" />Python</label>
+<label><input type="checkbox" value="2"class="inline" />C++</label>
+<label><input type="checkbox" value="3"class="inline" />Java</label>
+<label><input type="checkbox" value="4"class="inline" />C#</label>
+<label><input type="checkbox" value="5"class="inline" />None</label></legned>
+</fieldset>
+<textarea class="inline" placeholder="Write something about yourself..."></textarea>
+<input type="submit" value="Submit" id="submit">
+    </form>
+    </body>
+</html>
